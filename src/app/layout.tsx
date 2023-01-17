@@ -1,4 +1,4 @@
-import "../style/globals.scss";
+import "./globals.scss";
 
 export default function RootLayout({
   children,
@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="nl-BE">
       <head />
-      <body className="bg-red-500">{children}</body>
+      <body className="bg-green-500 p-12">{children}</body>
     </html>
   );
 }
